@@ -73,7 +73,7 @@ The data file structure should be as follows:
 
 ```
 # single-gpu training
-python tools/train.py configs/faster_rcnn/faster_rcnn_x101_64x4d_fpn_2x_daytime_sunny.py  --work-dir './output'
+python tools/train.py configs/faster_rcnn/faster_rcnn_r101_fpn_2x_daytime_sunny.py  --work-dir './output'
 
 # multi-gpu training
 CUDA_VISIBLE_DEVICES=0,1 bash tools/dist_train.sh configs/faster_rcnn/faster_rcnn_r101_fpn_2x_daytime_sunny.py 2 --work-dir './output' 
