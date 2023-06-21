@@ -92,7 +92,7 @@ python tools/test.py configs/faster_rcnn/faster_rcnn_r101_fpn_2x_night_rainy.py 
 python tools/test.py configs/faster_rcnn/faster_rcnn_r101_fpn_2x_night_sunny.py 'model_path' --eval mAP 
 # test on dusk_rainy domain
 python tools/test.py configs/faster_rcnn/faster_rcnn_r101_fpn_2x_dusk_rainy.py 'model_path' --eval mAP 
-# test on daytime_snow domain
+# test on daytime_snowy domain
 python tools/test.py configs/faster_rcnn/faster_rcnn_r101_fpn_2x_daytime_snowy.py 'model_path' --eval mAP 
 ```
 ## Results
