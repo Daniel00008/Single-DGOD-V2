@@ -23,7 +23,7 @@ export MKL_SERVICE_FORCE_INTEL=1
 ```
 
 ## Datasets
-#### Daytime-Sunny, Night-Sunny, Dusk-Rainy, Night-Rainy, Daytime-Foggy, and Daytime-Snowy
+We have constructed the 2nd version of the **Diverse Weather Dataset**, which has added a new snowy urban scene. This dataset contains the following scenarios, **Daytime-Sunny**, **Night-Sunny**, **Dusk-Rainy**, **Night-Rainy**, **Daytime-Foggy**, and **Daytime-Snowy**.
 
 [[Google Drive](https://drive.google.com/drive/folders/1PlQsF8pEWbh1Fc_EMTgp5wLoIeL_z-O_?usp=sharing)]
 
@@ -97,6 +97,21 @@ python tools/test.py configs/faster_rcnn/faster_rcnn_r101_fpn_2x_daytime_snowy.p
 ```
 ## Results
 <img src='./Results/Detection_Results.png' width=900/>
+
+## Citation
+
+If you find this repository useful for your work, please cite as follows:
+
+```
+@inproceedings{wu2022single,
+  title={Single-Domain Generalized Object Detection in Urban Scene via Cyclic-Disentangled Self-Distillation},
+  author={Wu, Aming and Deng, Cheng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={847--856},
+  year={2022}
+}
+
+```
 
 ## Acknowledgement
 Our code is based on the project [MMDetection](https://github.com/open-mmlab/mmdetection).
